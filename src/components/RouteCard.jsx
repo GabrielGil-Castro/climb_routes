@@ -15,7 +15,7 @@ export default function RouteCard({ route, onSelect }) {
   return (
     <div
       onClick={() => onSelect(route)}
-      className="bg-white rounded-lg border border-gray-200 p-4 hover:shadow-lg transition-shadow cursor-pointer"
+      className="bg-white rounded-lg border border-gray-200 p-4 hover:bg-blue-50 transition-shadow cursor-pointer"
     >
       {/* HEADER */}
       <div className="flex justify-between items-start mb-2">
