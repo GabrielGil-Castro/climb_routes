@@ -9,8 +9,8 @@ export default function Header() {
       shadow-lg
       border-b border-b-emerald-500
     ">
-      <div className="max-w-7xl mx-auto px-4 py-12">
-        <div className="flex items-center gap-3 mb-2">
+      <div className="max-w-7xl mx-auto px-4 py-10">
+        <div className="flex items-center justify-end gap-3 mb-2">
           <Mountain className="w-8 h-8 text-teal-300" />
           <h1 className="text-3xl font-bold text-slate-200/95">
             Vertical Trust
