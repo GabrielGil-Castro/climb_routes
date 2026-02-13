@@ -13,7 +13,7 @@ export default function Home() {
           url(${heroImage}) center/cover no-repeat`,
         }}
         >
-      <div className="text-center text-teal-100/90 px-6">
+      <div className="text-center px-6 text-transparent bg-clip-text bg-linear-to-r from-teal-50 to-teal-100">
         <h1 className="text-6xl font-bold mb-6">
           Climb Explorer
         </h1>

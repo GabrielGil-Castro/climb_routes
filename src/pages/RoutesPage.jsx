@@ -63,7 +63,7 @@ export default function Home() {
   }, [allRoutes, filters]);
 
   return (
-    <div className="min-h-screen bg-linear-to-b py-14 from-slate-50 via-white to-slate-200">
+    <div className="min-h-screen bg-linear-to-b py-14 from-slate-700 via-slate-800 to-slate-600">
 
       <main className="mx-auto max-w-7xl px-4 py-6">
         {/* FILTERS */}
