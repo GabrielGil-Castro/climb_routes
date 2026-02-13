@@ -1,31 +1,36 @@
 import heroImage from "../assets/images.png";
 import {Link} from 'react-router-dom'
+import About from "./Legacy";
 
 export default function Home() {
   return (
+    <div>
+
     <div
       className="pt-12 min-h-screen flex items-center justify-center"
       style={{
-        background: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-                     url(${heroImage}) center/cover no-repeat`,
-      }}
-    >
-      <div className="text-center text-white px-6">
+          background: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+          url(${heroImage}) center/cover no-repeat`,
+        }}
+        >
+      <div className="text-center text-teal-100/90 px-6">
         <h1 className="text-6xl font-bold mb-6">
           Climb Explorer
         </h1>
 
-        <p className="text-lg text-white/80 mb-8 max-w-xl">
+        <p className="text-lg text-teal-50/80 mb-8 max-w-xl">
           Discover climbing routes, explore areas, and track safety conditions.
         </p>
 
         <Link
              to="/routes"
-            className="inline-block bg-white text-black px-8 py-4 rounded-xl font-semibold hover:bg-gray-200 transition"
-        >
+             className="inline-block bg-cyan-50 text-slate-900 px-8 py-4 rounded-xl font-semibold hover:bg-emerald-100 hover:text-slate-950/80 transition"
+             >
          Explore Routes →
             </Link>
-      </div>
+            </div>
+        </div>
+        <About/>
     </div>
   );
 }

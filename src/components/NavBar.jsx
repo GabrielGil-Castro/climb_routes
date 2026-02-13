@@ -42,12 +42,12 @@ export default function Navbar() {
             </NavLink>
 
             <NavLink
-              to="/about"
+              to="/legacy"
               className={({ isActive }) =>
                 `${linkStyle} ${isActive ? activeStyle : normalStyle}`
               }
             >
-              Sobre
+              Legacy
             </NavLink>
 
             <NavLink
@@ -96,13 +96,13 @@ export default function Navbar() {
             </NavLink>
 
             <NavLink
-              to="/about"
+              to="/legacy"
               onClick={() => setIsOpen(false)}
               className={({ isActive }) =>
                 `block ${linkStyle} ${isActive ? activeStyle : normalStyle}`
               }
             >
-              Sobre
+              Legacy
             </NavLink>
 
             <NavLink
