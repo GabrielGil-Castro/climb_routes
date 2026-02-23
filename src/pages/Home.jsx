@@ -15,11 +15,11 @@ export default function Home() {
         >
       <div className="text-center px-6 text-transparent bg-clip-text bg-linear-to-r from-teal-50 to-teal-100">
         <h1 className="text-6xl font-bold mb-6">
-          Climb Explorer
+          Anchor Ledger
         </h1>
 
         <p className="text-lg text-teal-50/80 mb-8 max-w-xl">
-          Discover climbing routes, explore areas, and track safety conditions.
+          A centralized hub for information on every route. The living memory os the sport.
         </p>
 
         <Link

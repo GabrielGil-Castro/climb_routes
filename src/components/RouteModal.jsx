@@ -1,4 +1,4 @@
-import { AlertTriangle, Star, X, TrendingUp, Anchor, Calendar, MapPin, Info } from 'lucide-react';
+import { AlertTriangle, Star, X, ArrowUp, Bolt, Calendar, MapPin, Info } from 'lucide-react';
 
 export default function RouteModal({ route, onClose }) {
   if (!route) return null;
@@ -63,7 +63,7 @@ export default function RouteModal({ route, onClose }) {
 
             <div className="bg-gray-50 rounded-lg p-4">
               <div className="text-sm text-gray-600 mb-1 flex items-center gap-1">
-                <TrendingUp className="w-4 h-4" />
+                <ArrowUp  className="w-4 h-4" />
                 Height
               </div>
               <div className="text-2xl font-bold text-gray-900">{route.height}m</div>
@@ -71,7 +71,7 @@ export default function RouteModal({ route, onClose }) {
 
             <div className="bg-gray-50 rounded-lg p-4">
               <div className="text-sm text-gray-600 mb-1 flex items-center gap-1">
-                <Anchor className="w-4 h-4" />
+                <Bolt className="w-4 h-4" />
                 Bolts
               </div>
               <div className="text-2xl font-bold text-gray-900">{route.bolts}</div>

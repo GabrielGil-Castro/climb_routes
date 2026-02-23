@@ -1,4 +1,4 @@
-import { Star, AlertTriangle, Anchor, TrendingUp } from "lucide-react";
+import { Star, AlertTriangle, Bolt, ArrowUp } from "lucide-react";
 
 export default function RouteCard({ route, onSelect }) {
   // Função para determinar a cor do badge de grade
@@ -36,11 +36,11 @@ export default function RouteCard({ route, onSelect }) {
       {/* META INFO */}
       <div className="flex gap-4 text-sm text-gray-600 mb-2">
         <span className="flex items-center gap-1">
-          <TrendingUp className="w-4 h-4" />
+          <ArrowUp className="w-4 h-4" />
           {route.height}m
         </span>
         <span className="flex items-center gap-1">
-          <Anchor className="w-4 h-4" />
+          <Bolt className="w-4 h-4" />
           {route.bolts} bolts
         </span>
         <span className="flex items-center gap-1">
